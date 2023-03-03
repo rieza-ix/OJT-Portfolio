@@ -1,22 +1,26 @@
 * {
     font-family: Arial, sans-serif;
     cursor: pointer;
-    width: auto;
+    max-width: 1061rem;
     height: auto;
 }
 
 body {
     background-image: linear-gradient(white, #BFACE2);
-    height: 97.2vh;
+    height: 97.2%;
+    overflow: hidden;
 }
 
 .footer {
     height: 4.5vh;
-    width: 101%;
-    margin: -1.3% 0 0 0;
+    width: 101rem;
+    margin: -1.25% 0 0 0;
     font-size: 21px;
     border: none;
-    width: 8%;
+    width: 8rem;
+    bottom: 1rem;
+    position: sticky;
+    bottom: -5%;
 }
 
 .credits {
@@ -96,10 +100,10 @@ body {
 
 .topNav {
     background-color: black;
-    height: auto;
     border-radius: 5px;
     color: white;
-    height: 8vh;
+    height: 50px;
+    width: 84.4rem;
 }
 
 .webTitle {
@@ -112,8 +116,8 @@ body {
 
 .links {
     display: inline-block;
-    width: 23.4%;
-    margin-left: 58.2%;
+    width: 19.4rem;
+    margin-left: 49.4rem;
     font-size: 18px;
     cursor: pointer;
     font-weight: 800;
@@ -131,8 +135,8 @@ body {
 
 .openIntro {
     border: none;
-    width: 35%;
-    margin: 12% 0 0 14%;
+    width: 35rem;
+    margin: 12% 0 0 8rem;
 }
 
 .intro {
@@ -179,7 +183,7 @@ body {
     display: inline-block;
     width: 22%;
     margin-top: 4%;
-    vertical-align: 252px;
+    vertical-align: 255px;
 }
 
 .experience {
@@ -187,7 +191,7 @@ body {
     width: 25%;
     margin-top: 4%;
     margin-left: 6%;
-    vertical-align: 162px;
+    vertical-align: -40px;
 }
 
 .experience .line {
@@ -196,7 +200,7 @@ body {
 
 .line {
     background-color: #5D3891;
-    height: 0.6vh;
+    height: 0.7vh;
     border: none;
     margin-top: -1%;
 }
@@ -224,7 +228,7 @@ body {
 
 .header {
     display: block;
-    margin: 2% 0 0 42%;
+    margin: 1% 0 0 42%;
 }
 
 .headerAbout {
@@ -283,7 +287,7 @@ body {
 }
 
 .aboutPage .footer {
-    margin-top: 3.15%;
+    margin-top: -1.5%;
     height: fit-content;
 }
 
@@ -320,7 +324,7 @@ body {
 }
 
 .projectsPage .footer {
-    margin-top: 8.4%;
+    margin-top: 9.4%;
     height: fit-content;
 }
 
@@ -372,7 +376,7 @@ body {
 .person {
     width: 60%;
     height: auto;
-    margin: -23% 0 0 31.5%;
+    margin: -23% 0 0 22.8rem;
     display: block;
 }
 
@@ -393,7 +397,7 @@ body {
     background-image: linear-gradient(white, #BFACE2);
     margin: 13% auto 10% auto;
     width: 60%;
-    height: 46%;
+    height: 46vh;
     border-radius: 15px;
 }
 
