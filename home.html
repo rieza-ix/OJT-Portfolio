@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OJT Portfolio</title>
+        <link href="img/StackTrek-Logo.jpg" type="image/x-icon" rel="shortcut icon">
+        <link href="style/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="topNav">
+            <h1 class="webTitle">OJT Portfolio</h1>
+            <div class="links">
+                <a class="link2" href="home.html">HOME</a>
+                <a class="link2" href="projects.html">PROJECTS</a>
+                <a class="link2" href="about.html">ABOUT</a>
+            </div>
+        </div>
+
+        <div class="openIntro">
+            <div class="intro">
+                <h5 class="greetings">Hello!</h5>
+                <h1 class="name">I'm</h1>
+                <h1 class="name2">Rieza Marie</h1>
+                <h2 class="description">I am an aspiring Web Developer</h2>
+            </div>
+
+            <div class="buttons">
+                <a class="link" href="file/Resume.pdf" target="_blank">
+                    <button class="btnResume">RESUME</button>
+                </a>
+                <button class="btnContact" onclick="document.getElementById('popup').style.display='block'">CONTACT ME</button>
+            </div>
+        </div>
+
+        <div class="person">
+            <img class="person" src="img/me.png">
+        </div>
+
+        <div class="modal" id="popup">
+            <form class="modal-content animate">
+                <div class="container1">
+                    <span onclick="document.getElementById('popup').style.display='none'" id="close" title="Close">&times</span>
+                </div>
+
+                <div class="header">
+                    <h1 class="headerAbout">CONTACT</h1>
+                    <h1 class="headerAbout2">ME</h1>
+                </div>
+
+                <div class="emailBox">
+                    <h1 class="contactTitle">E-MAIL</h1>
+                    <hr class="boxLine">
+                    <h3 class="contactContent">riezamarie.banquillo@antiquespride.edu.ph</h3>
+                </div>
+
+                <div class="socialBox">
+                    <h1 class="contactTitle">SOCIAL</h1>
+                    <hr class="boxLine">
+                    <a class="link" href="https://github.com/rieza-ix" target="_blank">
+                        <img class="socialG" src="img/github.png">
+                    </a>
+
+                    <a class="link" href="https://discordapp.com/users/rmjb09#0155" target="_blank">
+                        <img class="socialD" src="img/discord.png">
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <h6 class="credits">RMJB @ 2023</h6>
+        </div>
+    </body>
+</html>
